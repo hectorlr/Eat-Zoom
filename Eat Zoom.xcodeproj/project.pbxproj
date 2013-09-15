@@ -10,7 +10,6 @@
 		C4ADCA6C17E4C597004F50F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4ADCA6B17E4C597004F50F8 /* Foundation.framework */; };
 		C4ADCA6E17E4C597004F50F8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4ADCA6D17E4C597004F50F8 /* CoreGraphics.framework */; };
 		C4ADCA7017E4C597004F50F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4ADCA6F17E4C597004F50F8 /* UIKit.framework */; };
-		C4ADCA7217E4C597004F50F8 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4ADCA7117E4C597004F50F8 /* CoreData.framework */; };
 		C4ADCA7817E4C597004F50F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C4ADCA7617E4C597004F50F8 /* InfoPlist.strings */; };
 		C4ADCA7A17E4C597004F50F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4ADCA7917E4C597004F50F8 /* main.m */; };
 		C4ADCA7E17E4C597004F50F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4ADCA7D17E4C597004F50F8 /* AppDelegate.m */; };
@@ -22,6 +21,63 @@
 		C4ADCA8D17E4C598004F50F8 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4ADCA7117E4C597004F50F8 /* CoreData.framework */; };
 		C4ADCA9517E4C598004F50F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C4ADCA9317E4C598004F50F8 /* InfoPlist.strings */; };
 		C4ADCA9717E4C598004F50F8 /* Eat_ZoomTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4ADCA9617E4C598004F50F8 /* Eat_ZoomTests.m */; };
+		C4ADCAA117E4CCD8004F50F8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4ADCAA017E4CCD8004F50F8 /* MapKit.framework */; };
+		C4ADCAA317E4CDB0004F50F8 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4ADCAA217E4CDB0004F50F8 /* Storyboard.storyboard */; };
+		C4ADCAA417E4CDB0004F50F8 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4ADCAA217E4CDB0004F50F8 /* Storyboard.storyboard */; };
+		C4ADCAB917E4D551004F50F8 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4ADCAB817E4D551004F50F8 /* MapViewController.m */; };
+		C4ADCABA17E4D551004F50F8 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4ADCAB817E4D551004F50F8 /* MapViewController.m */; };
+		C4ADCAC217E4E366004F50F8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4ADCAC117E4E366004F50F8 /* CoreLocation.framework */; };
+		C4DB535017E4E47200924A68 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4ADCA7117E4C597004F50F8 /* CoreData.framework */; };
+		C4DB535317E4E49D00924A68 /* MyCLController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4DB535217E4E49D00924A68 /* MyCLController.m */; };
+		C4DB535417E4E49D00924A68 /* MyCLController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4DB535217E4E49D00924A68 /* MyCLController.m */; };
+		C4DB53A117E4F5A400924A68 /* truckJson.json in Resources */ = {isa = PBXBuildFile; fileRef = C4DB53A017E4F5A400924A68 /* truckJson.json */; };
+		C4DB53A217E4F5A400924A68 /* truckJson.json in Resources */ = {isa = PBXBuildFile; fileRef = C4DB53A017E4F5A400924A68 /* truckJson.json */; };
+		C4DB53A517E4F78300924A68 /* FoodTruck.m in Sources */ = {isa = PBXBuildFile; fileRef = C4DB53A417E4F78300924A68 /* FoodTruck.m */; };
+		C4DB53A617E4F78300924A68 /* FoodTruck.m in Sources */ = {isa = PBXBuildFile; fileRef = C4DB53A417E4F78300924A68 /* FoodTruck.m */; };
+		C4DB53AC17E50C2C00924A68 /* TruckDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4DB53AB17E50C2C00924A68 /* TruckDetailViewController.m */; };
+		C4DB53AD17E50C2C00924A68 /* TruckDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4DB53AB17E50C2C00924A68 /* TruckDetailViewController.m */; };
+		C4DB53BD17E5370000924A68 /* menuJson in Resources */ = {isa = PBXBuildFile; fileRef = C4DB53BC17E5370000924A68 /* menuJson */; };
+		C4DB53BE17E5370000924A68 /* menuJson in Resources */ = {isa = PBXBuildFile; fileRef = C4DB53BC17E5370000924A68 /* menuJson */; };
+		C4DB53C317E5417400924A68 /* EATZOOM icon29.png in Resources */ = {isa = PBXBuildFile; fileRef = C4DB53C017E5417400924A68 /* EATZOOM icon29.png */; };
+		C4DB53C417E5417400924A68 /* EATZOOM icon29.png in Resources */ = {isa = PBXBuildFile; fileRef = C4DB53C017E5417400924A68 /* EATZOOM icon29.png */; };
+		C4DB53C517E5417400924A68 /* EATZOOM icon57.png in Resources */ = {isa = PBXBuildFile; fileRef = C4DB53C117E5417400924A68 /* EATZOOM icon57.png */; };
+		C4DB53C617E5417400924A68 /* EATZOOM icon57.png in Resources */ = {isa = PBXBuildFile; fileRef = C4DB53C117E5417400924A68 /* EATZOOM icon57.png */; };
+		C4DB53C717E5417400924A68 /* EATZOOM icon114.png in Resources */ = {isa = PBXBuildFile; fileRef = C4DB53C217E5417400924A68 /* EATZOOM icon114.png */; };
+		C4DB53C817E5417400924A68 /* EATZOOM icon114.png in Resources */ = {isa = PBXBuildFile; fileRef = C4DB53C217E5417400924A68 /* EATZOOM icon114.png */; };
+		C4DB53CA17E5429D00924A68 /* EATZOOM icon120.png in Resources */ = {isa = PBXBuildFile; fileRef = C4DB53C917E5429D00924A68 /* EATZOOM icon120.png */; };
+		C4DB53CB17E5429D00924A68 /* EATZOOM icon120.png in Resources */ = {isa = PBXBuildFile; fileRef = C4DB53C917E5429D00924A68 /* EATZOOM icon120.png */; };
+		C4DB53CD17E542A300924A68 /* EATZOOM icon58.png in Resources */ = {isa = PBXBuildFile; fileRef = C4DB53CC17E542A300924A68 /* EATZOOM icon58.png */; };
+		C4DB53CE17E542A300924A68 /* EATZOOM icon58.png in Resources */ = {isa = PBXBuildFile; fileRef = C4DB53CC17E542A300924A68 /* EATZOOM icon58.png */; };
+		C4DB53D017E542AA00924A68 /* EATZOOM icon80.png in Resources */ = {isa = PBXBuildFile; fileRef = C4DB53CF17E542AA00924A68 /* EATZOOM icon80.png */; };
+		C4DB53D117E542AA00924A68 /* EATZOOM icon80.png in Resources */ = {isa = PBXBuildFile; fileRef = C4DB53CF17E542AA00924A68 /* EATZOOM icon80.png */; };
+		C4DB53D317E5431200924A68 /* FoodTruckIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = C4DB53D217E5431200924A68 /* FoodTruckIcon.png */; };
+		C4DB53D417E5431200924A68 /* FoodTruckIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = C4DB53D217E5431200924A68 /* FoodTruckIcon.png */; };
+		C4DB53D917E54D2300924A68 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C4DB53D617E54D2300924A68 /* Default.png */; };
+		C4DB53DA17E54D2300924A68 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C4DB53D617E54D2300924A68 /* Default.png */; };
+		C4DB53DB17E54D2300924A68 /* Default~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = C4DB53D717E54D2300924A68 /* Default~iphone.png */; };
+		C4DB53DC17E54D2300924A68 /* Default~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = C4DB53D717E54D2300924A68 /* Default~iphone.png */; };
+		C4DB53DD17E54D2300924A68 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4DB53D817E54D2300924A68 /* Default-568h@2x.png */; };
+		C4DB53DE17E54D2300924A68 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4DB53D817E54D2300924A68 /* Default-568h@2x.png */; };
+		C4DB53EA17E54F9100924A68 /* Avocado-Tacos-with-Black-Bean-Corn-Salsa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C4DB53E017E54F9100924A68 /* Avocado-Tacos-with-Black-Bean-Corn-Salsa.jpg */; };
+		C4DB53EB17E54F9100924A68 /* Avocado-Tacos-with-Black-Bean-Corn-Salsa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C4DB53E017E54F9100924A68 /* Avocado-Tacos-with-Black-Bean-Corn-Salsa.jpg */; };
+		C4DB53EC17E54F9100924A68 /* carne asada tacos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C4DB53E117E54F9100924A68 /* carne asada tacos.jpg */; };
+		C4DB53ED17E54F9100924A68 /* carne asada tacos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C4DB53E117E54F9100924A68 /* carne asada tacos.jpg */; };
+		C4DB53EE17E54F9100924A68 /* carnitas tacos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C4DB53E217E54F9100924A68 /* carnitas tacos.jpg */; };
+		C4DB53EF17E54F9100924A68 /* carnitas tacos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C4DB53E217E54F9100924A68 /* carnitas tacos.jpg */; };
+		C4DB53F017E54F9100924A68 /* Chipotle-Chicken-Tacos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C4DB53E317E54F9100924A68 /* Chipotle-Chicken-Tacos.jpg */; };
+		C4DB53F117E54F9100924A68 /* Chipotle-Chicken-Tacos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C4DB53E317E54F9100924A68 /* Chipotle-Chicken-Tacos.jpg */; };
+		C4DB53F217E54F9100924A68 /* green chili + cheese tacos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C4DB53E417E54F9100924A68 /* green chili + cheese tacos.jpg */; };
+		C4DB53F317E54F9100924A68 /* green chili + cheese tacos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C4DB53E417E54F9100924A68 /* green chili + cheese tacos.jpg */; };
+		C4DB53F417E54F9100924A68 /* Grilled-halibut-tacos-with-peach-salsa-11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C4DB53E517E54F9100924A68 /* Grilled-halibut-tacos-with-peach-salsa-11.jpg */; };
+		C4DB53F517E54F9100924A68 /* Grilled-halibut-tacos-with-peach-salsa-11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C4DB53E517E54F9100924A68 /* Grilled-halibut-tacos-with-peach-salsa-11.jpg */; };
+		C4DB53F617E54F9100924A68 /* ground beef tacos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C4DB53E617E54F9100924A68 /* ground beef tacos.jpg */; };
+		C4DB53F717E54F9100924A68 /* ground beef tacos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C4DB53E617E54F9100924A68 /* ground beef tacos.jpg */; };
+		C4DB53F817E54F9100924A68 /* korean tacos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C4DB53E717E54F9100924A68 /* korean tacos.jpg */; };
+		C4DB53F917E54F9100924A68 /* korean tacos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C4DB53E717E54F9100924A68 /* korean tacos.jpg */; };
+		C4DB53FA17E54F9100924A68 /* pulled chicken-taco.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C4DB53E817E54F9100924A68 /* pulled chicken-taco.jpg */; };
+		C4DB53FB17E54F9100924A68 /* pulled chicken-taco.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C4DB53E817E54F9100924A68 /* pulled chicken-taco.jpg */; };
+		C4DB53FC17E54F9100924A68 /* salad tacos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C4DB53E917E54F9100924A68 /* salad tacos.jpg */; };
+		C4DB53FD17E54F9100924A68 /* salad tacos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C4DB53E917E54F9100924A68 /* salad tacos.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +109,39 @@
 		C4ADCA9217E4C598004F50F8 /* Eat ZoomTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Eat ZoomTests-Info.plist"; sourceTree = "<group>"; };
 		C4ADCA9417E4C598004F50F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C4ADCA9617E4C598004F50F8 /* Eat_ZoomTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Eat_ZoomTests.m; sourceTree = "<group>"; };
+		C4ADCAA017E4CCD8004F50F8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		C4ADCAA217E4CDB0004F50F8 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		C4ADCAB717E4D551004F50F8 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		C4ADCAB817E4D551004F50F8 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		C4ADCAC117E4E366004F50F8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C4DB535117E4E49D00924A68 /* MyCLController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCLController.h; sourceTree = "<group>"; };
+		C4DB535217E4E49D00924A68 /* MyCLController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCLController.m; sourceTree = "<group>"; };
+		C4DB53A017E4F5A400924A68 /* truckJson.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = truckJson.json; sourceTree = "<group>"; };
+		C4DB53A317E4F78300924A68 /* FoodTruck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodTruck.h; sourceTree = "<group>"; };
+		C4DB53A417E4F78300924A68 /* FoodTruck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodTruck.m; sourceTree = "<group>"; };
+		C4DB53AA17E50C2C00924A68 /* TruckDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TruckDetailViewController.h; sourceTree = "<group>"; };
+		C4DB53AB17E50C2C00924A68 /* TruckDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TruckDetailViewController.m; sourceTree = "<group>"; };
+		C4DB53BC17E5370000924A68 /* menuJson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = menuJson; sourceTree = "<group>"; };
+		C4DB53C017E5417400924A68 /* EATZOOM icon29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "EATZOOM icon29.png"; sourceTree = "<group>"; };
+		C4DB53C117E5417400924A68 /* EATZOOM icon57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "EATZOOM icon57.png"; sourceTree = "<group>"; };
+		C4DB53C217E5417400924A68 /* EATZOOM icon114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "EATZOOM icon114.png"; sourceTree = "<group>"; };
+		C4DB53C917E5429D00924A68 /* EATZOOM icon120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "EATZOOM icon120.png"; sourceTree = "<group>"; };
+		C4DB53CC17E542A300924A68 /* EATZOOM icon58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "EATZOOM icon58.png"; sourceTree = "<group>"; };
+		C4DB53CF17E542AA00924A68 /* EATZOOM icon80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "EATZOOM icon80.png"; sourceTree = "<group>"; };
+		C4DB53D217E5431200924A68 /* FoodTruckIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FoodTruckIcon.png; sourceTree = "<group>"; };
+		C4DB53D617E54D2300924A68 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C4DB53D717E54D2300924A68 /* Default~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default~iphone.png"; sourceTree = "<group>"; };
+		C4DB53D817E54D2300924A68 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C4DB53E017E54F9100924A68 /* Avocado-Tacos-with-Black-Bean-Corn-Salsa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Avocado-Tacos-with-Black-Bean-Corn-Salsa.jpg"; sourceTree = "<group>"; };
+		C4DB53E117E54F9100924A68 /* carne asada tacos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "carne asada tacos.jpg"; sourceTree = "<group>"; };
+		C4DB53E217E54F9100924A68 /* carnitas tacos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "carnitas tacos.jpg"; sourceTree = "<group>"; };
+		C4DB53E317E54F9100924A68 /* Chipotle-Chicken-Tacos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Chipotle-Chicken-Tacos.jpg"; sourceTree = "<group>"; };
+		C4DB53E417E54F9100924A68 /* green chili + cheese tacos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "green chili + cheese tacos.jpg"; sourceTree = "<group>"; };
+		C4DB53E517E54F9100924A68 /* Grilled-halibut-tacos-with-peach-salsa-11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Grilled-halibut-tacos-with-peach-salsa-11.jpg"; sourceTree = "<group>"; };
+		C4DB53E617E54F9100924A68 /* ground beef tacos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ground beef tacos.jpg"; sourceTree = "<group>"; };
+		C4DB53E717E54F9100924A68 /* korean tacos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "korean tacos.jpg"; sourceTree = "<group>"; };
+		C4DB53E817E54F9100924A68 /* pulled chicken-taco.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pulled chicken-taco.jpg"; sourceTree = "<group>"; };
+		C4DB53E917E54F9100924A68 /* salad tacos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "salad tacos.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +149,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4DB535017E4E47200924A68 /* CoreData.framework in Frameworks */,
+				C4ADCAC217E4E366004F50F8 /* CoreLocation.framework in Frameworks */,
+				C4ADCAA117E4CCD8004F50F8 /* MapKit.framework in Frameworks */,
 				C4ADCA6E17E4C597004F50F8 /* CoreGraphics.framework in Frameworks */,
-				C4ADCA7217E4C597004F50F8 /* CoreData.framework in Frameworks */,
 				C4ADCA7017E4C597004F50F8 /* UIKit.framework in Frameworks */,
 				C4ADCA6C17E4C597004F50F8 /* Foundation.framework in Frameworks */,
 			);
@@ -84,6 +175,8 @@
 		C4ADCA5F17E4C597004F50F8 = {
 			isa = PBXGroup;
 			children = (
+				C4DB53D517E5455200924A68 /* Json Feeds */,
+				C4DB53BF17E5416100924A68 /* images */,
 				C4ADCA7317E4C597004F50F8 /* Eat Zoom */,
 				C4ADCA9017E4C598004F50F8 /* Eat ZoomTests */,
 				C4ADCA6A17E4C597004F50F8 /* Frameworks */,
@@ -103,6 +196,8 @@
 		C4ADCA6A17E4C597004F50F8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C4ADCAC117E4E366004F50F8 /* CoreLocation.framework */,
+				C4ADCAA017E4CCD8004F50F8 /* MapKit.framework */,
 				C4ADCA6B17E4C597004F50F8 /* Foundation.framework */,
 				C4ADCA6D17E4C597004F50F8 /* CoreGraphics.framework */,
 				C4ADCA6F17E4C597004F50F8 /* UIKit.framework */,
@@ -115,8 +210,17 @@
 		C4ADCA7317E4C597004F50F8 /* Eat Zoom */ = {
 			isa = PBXGroup;
 			children = (
+				C4ADCAB717E4D551004F50F8 /* MapViewController.h */,
+				C4ADCAB817E4D551004F50F8 /* MapViewController.m */,
+				C4DB53AA17E50C2C00924A68 /* TruckDetailViewController.h */,
+				C4DB53AB17E50C2C00924A68 /* TruckDetailViewController.m */,
+				C4DB53A317E4F78300924A68 /* FoodTruck.h */,
+				C4DB53A417E4F78300924A68 /* FoodTruck.m */,
 				C4ADCA7C17E4C597004F50F8 /* AppDelegate.h */,
 				C4ADCA7D17E4C597004F50F8 /* AppDelegate.m */,
+				C4DB535117E4E49D00924A68 /* MyCLController.h */,
+				C4DB535217E4E49D00924A68 /* MyCLController.m */,
+				C4ADCAA217E4CDB0004F50F8 /* Storyboard.storyboard */,
 				C4ADCA8217E4C597004F50F8 /* Images.xcassets */,
 				C4ADCA7F17E4C597004F50F8 /* Eat_Zoom.xcdatamodeld */,
 				C4ADCA7417E4C597004F50F8 /* Supporting Files */,
@@ -151,6 +255,50 @@
 				C4ADCA9317E4C598004F50F8 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C4DB53BF17E5416100924A68 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				C4DB53DF17E54F5900924A68 /* Menu */,
+				C4DB53C017E5417400924A68 /* EATZOOM icon29.png */,
+				C4DB53D617E54D2300924A68 /* Default.png */,
+				C4DB53D717E54D2300924A68 /* Default~iphone.png */,
+				C4DB53D817E54D2300924A68 /* Default-568h@2x.png */,
+				C4DB53C117E5417400924A68 /* EATZOOM icon57.png */,
+				C4DB53D217E5431200924A68 /* FoodTruckIcon.png */,
+				C4DB53CF17E542AA00924A68 /* EATZOOM icon80.png */,
+				C4DB53C917E5429D00924A68 /* EATZOOM icon120.png */,
+				C4DB53CC17E542A300924A68 /* EATZOOM icon58.png */,
+				C4DB53C217E5417400924A68 /* EATZOOM icon114.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		C4DB53D517E5455200924A68 /* Json Feeds */ = {
+			isa = PBXGroup;
+			children = (
+				C4DB53A017E4F5A400924A68 /* truckJson.json */,
+				C4DB53BC17E5370000924A68 /* menuJson */,
+			);
+			name = "Json Feeds";
+			sourceTree = "<group>";
+		};
+		C4DB53DF17E54F5900924A68 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				C4DB53E017E54F9100924A68 /* Avocado-Tacos-with-Black-Bean-Corn-Salsa.jpg */,
+				C4DB53E117E54F9100924A68 /* carne asada tacos.jpg */,
+				C4DB53E217E54F9100924A68 /* carnitas tacos.jpg */,
+				C4DB53E317E54F9100924A68 /* Chipotle-Chicken-Tacos.jpg */,
+				C4DB53E417E54F9100924A68 /* green chili + cheese tacos.jpg */,
+				C4DB53E517E54F9100924A68 /* Grilled-halibut-tacos-with-peach-salsa-11.jpg */,
+				C4DB53E617E54F9100924A68 /* ground beef tacos.jpg */,
+				C4DB53E717E54F9100924A68 /* korean tacos.jpg */,
+				C4DB53E817E54F9100924A68 /* pulled chicken-taco.jpg */,
+				C4DB53E917E54F9100924A68 /* salad tacos.jpg */,
+			);
+			name = Menu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,8 +376,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4DB53C717E5417400924A68 /* EATZOOM icon114.png in Resources */,
 				C4ADCA7817E4C597004F50F8 /* InfoPlist.strings in Resources */,
+				C4DB53EC17E54F9100924A68 /* carne asada tacos.jpg in Resources */,
+				C4DB53DD17E54D2300924A68 /* Default-568h@2x.png in Resources */,
+				C4DB53C517E5417400924A68 /* EATZOOM icon57.png in Resources */,
+				C4DB53FA17E54F9100924A68 /* pulled chicken-taco.jpg in Resources */,
+				C4DB53D917E54D2300924A68 /* Default.png in Resources */,
+				C4DB53F017E54F9100924A68 /* Chipotle-Chicken-Tacos.jpg in Resources */,
+				C4DB53EA17E54F9100924A68 /* Avocado-Tacos-with-Black-Bean-Corn-Salsa.jpg in Resources */,
+				C4DB53CA17E5429D00924A68 /* EATZOOM icon120.png in Resources */,
+				C4DB53F817E54F9100924A68 /* korean tacos.jpg in Resources */,
+				C4DB53F617E54F9100924A68 /* ground beef tacos.jpg in Resources */,
+				C4DB53F217E54F9100924A68 /* green chili + cheese tacos.jpg in Resources */,
+				C4DB53D017E542AA00924A68 /* EATZOOM icon80.png in Resources */,
+				C4DB53DB17E54D2300924A68 /* Default~iphone.png in Resources */,
+				C4DB53F417E54F9100924A68 /* Grilled-halibut-tacos-with-peach-salsa-11.jpg in Resources */,
 				C4ADCA8317E4C597004F50F8 /* Images.xcassets in Resources */,
+				C4DB53C317E5417400924A68 /* EATZOOM icon29.png in Resources */,
+				C4DB53CD17E542A300924A68 /* EATZOOM icon58.png in Resources */,
+				C4DB53BD17E5370000924A68 /* menuJson in Resources */,
+				C4DB53EE17E54F9100924A68 /* carnitas tacos.jpg in Resources */,
+				C4DB53FC17E54F9100924A68 /* salad tacos.jpg in Resources */,
+				C4DB53A117E4F5A400924A68 /* truckJson.json in Resources */,
+				C4DB53D317E5431200924A68 /* FoodTruckIcon.png in Resources */,
+				C4ADCAA317E4CDB0004F50F8 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,7 +408,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4DB53D417E5431200924A68 /* FoodTruckIcon.png in Resources */,
+				C4DB53ED17E54F9100924A68 /* carne asada tacos.jpg in Resources */,
+				C4DB53DE17E54D2300924A68 /* Default-568h@2x.png in Resources */,
+				C4DB53F717E54F9100924A68 /* ground beef tacos.jpg in Resources */,
+				C4DB53D117E542AA00924A68 /* EATZOOM icon80.png in Resources */,
 				C4ADCA9517E4C598004F50F8 /* InfoPlist.strings in Resources */,
+				C4DB53BE17E5370000924A68 /* menuJson in Resources */,
+				C4DB53F117E54F9100924A68 /* Chipotle-Chicken-Tacos.jpg in Resources */,
+				C4DB53F517E54F9100924A68 /* Grilled-halibut-tacos-with-peach-salsa-11.jpg in Resources */,
+				C4DB53EB17E54F9100924A68 /* Avocado-Tacos-with-Black-Bean-Corn-Salsa.jpg in Resources */,
+				C4DB53C417E5417400924A68 /* EATZOOM icon29.png in Resources */,
+				C4DB53CB17E5429D00924A68 /* EATZOOM icon120.png in Resources */,
+				C4ADCAA417E4CDB0004F50F8 /* Storyboard.storyboard in Resources */,
+				C4DB53F917E54F9100924A68 /* korean tacos.jpg in Resources */,
+				C4DB53C817E5417400924A68 /* EATZOOM icon114.png in Resources */,
+				C4DB53DC17E54D2300924A68 /* Default~iphone.png in Resources */,
+				C4DB53F317E54F9100924A68 /* green chili + cheese tacos.jpg in Resources */,
+				C4DB53FB17E54F9100924A68 /* pulled chicken-taco.jpg in Resources */,
+				C4DB53A217E4F5A400924A68 /* truckJson.json in Resources */,
+				C4DB53DA17E54D2300924A68 /* Default.png in Resources */,
+				C4DB53CE17E542A300924A68 /* EATZOOM icon58.png in Resources */,
+				C4DB53FD17E54F9100924A68 /* salad tacos.jpg in Resources */,
+				C4DB53EF17E54F9100924A68 /* carnitas tacos.jpg in Resources */,
+				C4DB53C617E5417400924A68 /* EATZOOM icon57.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,8 +442,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4DB53AC17E50C2C00924A68 /* TruckDetailViewController.m in Sources */,
 				C4ADCA8117E4C597004F50F8 /* Eat_Zoom.xcdatamodeld in Sources */,
+				C4DB535317E4E49D00924A68 /* MyCLController.m in Sources */,
+				C4ADCAB917E4D551004F50F8 /* MapViewController.m in Sources */,
 				C4ADCA7E17E4C597004F50F8 /* AppDelegate.m in Sources */,
+				C4DB53A517E4F78300924A68 /* FoodTruck.m in Sources */,
 				C4ADCA7A17E4C597004F50F8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,7 +456,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4DB53AD17E50C2C00924A68 /* TruckDetailViewController.m in Sources */,
+				C4ADCABA17E4D551004F50F8 /* MapViewController.m in Sources */,
 				C4ADCA9717E4C598004F50F8 /* Eat_ZoomTests.m in Sources */,
+				C4DB53A617E4F78300924A68 /* FoodTruck.m in Sources */,
+				C4DB535417E4E49D00924A68 /* MyCLController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,11 +569,10 @@
 		C4ADCA9B17E4C598004F50F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Eat Zoom/Eat Zoom-Prefix.pch";
 				INFOPLIST_FILE = "Eat Zoom/Eat Zoom-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -380,11 +581,10 @@
 		C4ADCA9C17E4C598004F50F8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Eat Zoom/Eat Zoom-Prefix.pch";
 				INFOPLIST_FILE = "Eat Zoom/Eat Zoom-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -451,6 +651,7 @@
 				C4ADCA9C17E4C598004F50F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C4ADCA9D17E4C598004F50F8 /* Build configuration list for PBXNativeTarget "Eat ZoomTests" */ = {
 			isa = XCConfigurationList;
@@ -459,6 +660,7 @@
 				C4ADCA9F17E4C598004F50F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

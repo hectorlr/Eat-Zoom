@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6FEFB6F0-3294-4248-AABD-00C5B62EABD1</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Eat Zoom</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4AAB2B01-D284-4DC7-B926-5CCE9F60D0CB</key>
+		<string>https://github.com/hectorlr/Eat-Zoom.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Eat Zoom.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4AAB2B01-D284-4DC7-B926-5CCE9F60D0CB</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/hectorlr/Eat-Zoom.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4AAB2B01-D284-4DC7-B926-5CCE9F60D0CB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4AAB2B01-D284-4DC7-B926-5CCE9F60D0CB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Eat Zoom</string>
+		</dict>
+	</array>
+</dict>
+</plist>

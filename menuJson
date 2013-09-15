@@ -1,0 +1,67 @@
+{
+    "menu": [
+        {
+            "ID": "1",
+            "ItemName": "Pork Carnitas",
+            "Description": "slow roasted pork carnitas served on white corn tortillas with cilantro cream fresca and habanero picked red onions.",
+            "Picture": "FAKE",
+            "Video": "FAKE",
+            "Category": "Tacos",
+            "Price": "9.99"
+        },
+        {
+            "ID": "2",
+            "ItemName": "Burger",
+            "Description": "Juicy buger",
+            "Picture": "link",
+            "Video": "link",
+            "Category": "Burgers",
+            "Price": "8.99"
+        },
+        {
+            "ID": "3",
+            "ItemName": "Taco",
+            "Description": "Triple Taco",
+            "Picture": "link",
+            "Video": "link",
+            "Category": "Sandwiches",
+            "Price": "7.49"
+        },
+        {
+            "ID": "4",
+            "ItemName": "Fish",
+            "Description": "Tastey Fish",
+            "Picture": "link",
+            "Video": "link",
+            "Category": "Hot Dogs",
+            "Price": "1.25"
+        },
+        {
+            "ID": "5",
+            "ItemName": "Philly",
+            "Description": "Philly cheesesteak",
+            "Picture": "link",
+            "Video": "link",
+            "Category": "Philipino",
+            "Price": "25.34"
+        },
+        {
+            "ID": "6",
+            "ItemName": "Chips",
+            "Description": "Salt and Vinegar chips",
+            "Picture": "link",
+            "Video": "link",
+            "Category": "Natural meats",
+            "Price": "1.23"
+        },
+        {
+            "ID": "7",
+            "ItemName": "Beer",
+            "Description": "OMG BEER",
+            "Picture": "link",
+            "Video": "link",
+            "Category": "BBQ",
+            "Price": "3.12"
+        }
+    ]
+}
