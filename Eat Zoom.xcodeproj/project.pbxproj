@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C45DB77017E7C41F008A5F76 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C45DB76F17E7C41F008A5F76 /* Social.framework */; };
+		C45DB77217E7C42B008A5F76 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C45DB77117E7C42B008A5F76 /* Twitter.framework */; };
+		C4683AAF17E60EC30059463E /* MAP-LIST-01.png in Resources */ = {isa = PBXBuildFile; fileRef = C4683AAD17E60EC30059463E /* MAP-LIST-01.png */; };
+		C4683AB017E60EC30059463E /* MAP-LIST-02.png in Resources */ = {isa = PBXBuildFile; fileRef = C4683AAE17E60EC30059463E /* MAP-LIST-02.png */; };
+		C4683AB317E638830059463E /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4683AB217E638830059463E /* ListViewController.m */; };
+		C4683AB417E638830059463E /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4683AB217E638830059463E /* ListViewController.m */; };
 		C4ADCA6C17E4C597004F50F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4ADCA6B17E4C597004F50F8 /* Foundation.framework */; };
 		C4ADCA6E17E4C597004F50F8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4ADCA6D17E4C597004F50F8 /* CoreGraphics.framework */; };
 		C4ADCA7017E4C597004F50F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4ADCA6F17E4C597004F50F8 /* UIKit.framework */; };
@@ -91,6 +97,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C45DB76F17E7C41F008A5F76 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		C45DB77117E7C42B008A5F76 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		C4683AAD17E60EC30059463E /* MAP-LIST-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MAP-LIST-01.png"; sourceTree = "<group>"; };
+		C4683AAE17E60EC30059463E /* MAP-LIST-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MAP-LIST-02.png"; sourceTree = "<group>"; };
+		C4683AB117E638830059463E /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		C4683AB217E638830059463E /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
 		C4ADCA6817E4C597004F50F8 /* Eat Zoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Eat Zoom.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4ADCA6B17E4C597004F50F8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C4ADCA6D17E4C597004F50F8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -149,6 +161,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C45DB77217E7C42B008A5F76 /* Twitter.framework in Frameworks */,
+				C45DB77017E7C41F008A5F76 /* Social.framework in Frameworks */,
 				C4DB535017E4E47200924A68 /* CoreData.framework in Frameworks */,
 				C4ADCAC217E4E366004F50F8 /* CoreLocation.framework in Frameworks */,
 				C4ADCAA117E4CCD8004F50F8 /* MapKit.framework in Frameworks */,
@@ -196,6 +210,8 @@
 		C4ADCA6A17E4C597004F50F8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C45DB77117E7C42B008A5F76 /* Twitter.framework */,
+				C45DB76F17E7C41F008A5F76 /* Social.framework */,
 				C4ADCAC117E4E366004F50F8 /* CoreLocation.framework */,
 				C4ADCAA017E4CCD8004F50F8 /* MapKit.framework */,
 				C4ADCA6B17E4C597004F50F8 /* Foundation.framework */,
@@ -221,6 +237,8 @@
 				C4DB535117E4E49D00924A68 /* MyCLController.h */,
 				C4DB535217E4E49D00924A68 /* MyCLController.m */,
 				C4ADCAA217E4CDB0004F50F8 /* Storyboard.storyboard */,
+				C4683AB117E638830059463E /* ListViewController.h */,
+				C4683AB217E638830059463E /* ListViewController.m */,
 				C4ADCA8217E4C597004F50F8 /* Images.xcassets */,
 				C4ADCA7F17E4C597004F50F8 /* Eat_Zoom.xcdatamodeld */,
 				C4ADCA7417E4C597004F50F8 /* Supporting Files */,
@@ -287,6 +305,8 @@
 		C4DB53DF17E54F5900924A68 /* Menu */ = {
 			isa = PBXGroup;
 			children = (
+				C4683AAD17E60EC30059463E /* MAP-LIST-01.png */,
+				C4683AAE17E60EC30059463E /* MAP-LIST-02.png */,
 				C4DB53E017E54F9100924A68 /* Avocado-Tacos-with-Black-Bean-Corn-Salsa.jpg */,
 				C4DB53E117E54F9100924A68 /* carne asada tacos.jpg */,
 				C4DB53E217E54F9100924A68 /* carnitas tacos.jpg */,
@@ -392,7 +412,9 @@
 				C4DB53D017E542AA00924A68 /* EATZOOM icon80.png in Resources */,
 				C4DB53DB17E54D2300924A68 /* Default~iphone.png in Resources */,
 				C4DB53F417E54F9100924A68 /* Grilled-halibut-tacos-with-peach-salsa-11.jpg in Resources */,
+				C4683AB017E60EC30059463E /* MAP-LIST-02.png in Resources */,
 				C4ADCA8317E4C597004F50F8 /* Images.xcassets in Resources */,
+				C4683AAF17E60EC30059463E /* MAP-LIST-01.png in Resources */,
 				C4DB53C317E5417400924A68 /* EATZOOM icon29.png in Resources */,
 				C4DB53CD17E542A300924A68 /* EATZOOM icon58.png in Resources */,
 				C4DB53BD17E5370000924A68 /* menuJson in Resources */,
@@ -444,6 +466,7 @@
 			files = (
 				C4DB53AC17E50C2C00924A68 /* TruckDetailViewController.m in Sources */,
 				C4ADCA8117E4C597004F50F8 /* Eat_Zoom.xcdatamodeld in Sources */,
+				C4683AB317E638830059463E /* ListViewController.m in Sources */,
 				C4DB535317E4E49D00924A68 /* MyCLController.m in Sources */,
 				C4ADCAB917E4D551004F50F8 /* MapViewController.m in Sources */,
 				C4ADCA7E17E4C597004F50F8 /* AppDelegate.m in Sources */,
@@ -458,6 +481,7 @@
 			files = (
 				C4DB53AD17E50C2C00924A68 /* TruckDetailViewController.m in Sources */,
 				C4ADCABA17E4D551004F50F8 /* MapViewController.m in Sources */,
+				C4683AB417E638830059463E /* ListViewController.m in Sources */,
 				C4ADCA9717E4C598004F50F8 /* Eat_ZoomTests.m in Sources */,
 				C4DB53A617E4F78300924A68 /* FoodTruck.m in Sources */,
 				C4DB535417E4E49D00924A68 /* MyCLController.m in Sources */,
@@ -572,7 +596,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Eat Zoom/Eat Zoom-Prefix.pch";
 				INFOPLIST_FILE = "Eat Zoom/Eat Zoom-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -584,7 +608,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Eat Zoom/Eat Zoom-Prefix.pch";
 				INFOPLIST_FILE = "Eat Zoom/Eat Zoom-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

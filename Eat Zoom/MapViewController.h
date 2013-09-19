@@ -15,6 +15,7 @@
     FoodTruck *foodTruck;
     IBOutlet MKMapView *mapView;
     MyCLController *locationController;
+    NSMutableArray *foodTrucks;
 }
 
 - (CLLocationCoordinate2D)locationUpdate:(CLLocation *)location;

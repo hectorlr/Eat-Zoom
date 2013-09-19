@@ -9,6 +9,7 @@
 #import "MapViewController.h"
 #import "FoodTruck.h"
 #import "TruckDetailViewController.h"
+#import "ListViewController.h"
 
 @interface MapViewController ()
 @end
@@ -24,6 +25,8 @@
     return self;
 }
 
+
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -31,7 +34,7 @@
 	locationController.delegate = self;
 	[locationController.locationManager startUpdatingLocation];
     
-    mapView = [[MKMapView alloc] initWithFrame:self.view.bounds];
+    //mapView = [[MKMapView alloc] initWithFrame:self.view.bounds];
     mapView.mapType = MKMapTypeStandard;
     mapView.delegate = self;
     mapView.showsUserLocation = YES;
@@ -40,6 +43,7 @@
     MKCoordinateRegion region = {coord, span};
     
     [mapView setRegion:region];
+    foodTrucks = [[NSMutableArray alloc] initWithCapacity:5];
     [self loadTrucks:self];
     [self.view addSubview:mapView];
 
@@ -74,6 +78,13 @@
         annotationView.canShowCallout = YES;
         annotationView.image=[UIImage imageNamed:@"FoodTruckIcon.png"];//here we use a nice image instead of the default pins
         
+       /* MKMapRect visibleMapRect = mapView.visibleMapRect;
+        NSSet *visibleAnnotations = [mapView annotationsInMapRect:visibleMapRect];
+        BOOL annotationIsVisible = [visibleAnnotations containsObject:annotation];
+        if (annotationIsVisible) {*/
+            [foodTrucks addObject:annotation];
+       // }
+        
         return annotationView;
     }
     
@@ -81,7 +92,6 @@
 }
 
 - (void)mapView:(MKMapView *)mapView annotationView:(MKAnnotationView *)view calloutAccessoryControlTapped:(UIControl *)control{
-    NSLog(@"calloutAccessoryControlTapped: annotation = %@", view.annotation);
     foodTruck = view.annotation;
     [self performSegueWithIdentifier:@"TruckSegue" sender:self];
 }
@@ -95,6 +105,12 @@
         [vc setTitle:[foodTruck name]];
         [vc setFoodTruck:foodTruck];
     }
+    
+    if ([[segue identifier] isEqualToString:@"ListSegue"])
+    {
+        ListViewController *vc = [segue destinationViewController];
+        [vc setFoodTrucks:foodTrucks];
+    }
 }
 
 - (void)loadTrucks:(id)sender {
@@ -103,7 +119,6 @@
     
     NSError *myError = nil;
     NSDictionary *res = [NSJSONSerialization JSONObjectWithData:jsonData options:NSJSONReadingMutableLeaves error:&myError];
-    NSLog(@"%@",[res description]);
     NSArray *arr;
     arr = [res allKeys];
     for(NSString* info in arr){
@@ -126,6 +141,7 @@
             coordinate.latitude = latitude.doubleValue;
             coordinate.longitude = longitude.doubleValue;
             FoodTruck *foodT = [[FoodTruck alloc] initWithName:name description:description icon:icon privateEmail:privateEmail phone:phone website:website twitter:twitter facebook:facebook cuisineType:cuisineType cost:cost coordinate:coordinate] ;
+            
             [mapView addAnnotation:foodT];
         }
     }
